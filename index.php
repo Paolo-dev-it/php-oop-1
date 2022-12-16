@@ -9,11 +9,16 @@
    $movie4 = new movies('Il signore degli Anelli','J.R.R Tolkien',10, 'Fantasy');
    $movie5 = new movies('Toy Story','Andrew Stanton',18, 'Animazione');
 
-    echo $movie1 -> Adult();
-    echo $movie2 -> Adult();
-    echo $movie3 -> Adult();
-    echo $movie4 -> Adult();
-    echo $movie5 -> Adult();
+    echo $movie1 -> showOnScreen();
+    echo $movie2 -> showOnScreen();
+    echo $movie3 -> showOnScreen();
+    echo $movie4 -> showOnScreen();
+    echo $movie5 -> showOnScreen();
+
+    '<pre>';
+        var_dump($movie1,$movie2,$movie3,$movie4,$movie5);
+    '</pre>';
+    
 
 
     
