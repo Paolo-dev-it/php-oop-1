@@ -15,9 +15,9 @@
 
         public function Adult(){
             if ($this->year >= 18){
-                return "L'utente ha selezionato un film di $this->genre chiamato $this->title creato da $this->author e avendo $this->year anni può vedere i film senza essere accompagnato da adulti";
+                return "L'utente ha selezionato un film di $this->genre chiamato $this->title creato da $this->author e avendo $this->year anni può vedere i film senza essere accompagnato da adulti <br/>";
             } else {
-                return "L'utente ha selezionato un film di $this->genre chiamato $this->title creato da $this->author e avendo $this->year anni NON può vedere i film senza essere accompagnato adulti";
+                return "L'utente ha selezionato un film di $this->genre chiamato $this->title creato da $this->author e avendo $this->year anni NON può vedere i film senza essere accompagnato adulti <br/>";
             }
         }
     }
